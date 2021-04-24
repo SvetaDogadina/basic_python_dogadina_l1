@@ -12,7 +12,5 @@ print("So you are " + age + " years old?")
 answer = input("Type answer YES or NO: ")
 if answer == "YES":
     print("Cool! My 64bit works good today")
-    access = True
 if answer == "NO":
     print("You are drunk! Go home")
-    access = False
