@@ -19,5 +19,7 @@ if revenue > costs:
 if revenue < costs:
     profit = revenue - costs
     print("Эта фирма получила убыток ", profit, "руб")
+if revenue == costs :
+    print("Эта фирма вышла на безубыточность")
 
 
