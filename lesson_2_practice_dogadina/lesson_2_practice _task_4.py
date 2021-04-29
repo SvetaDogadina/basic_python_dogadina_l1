@@ -4,16 +4,16 @@
 # Если в слово длинное, выводить только первые 10 букв в слове.
 print('Введите список слов через пробел и нажмите Enter:')
 lst = input().split(' ')
-for i in range(len(lst)):
-    print("Номер строки :", i+1, "слово: ", lst[i])
-print(len(lst[0]))
+i = 0
+if len(lst[i]) <= 10:
+    for i in range(len(lst)):
+        print("Номер строки :", i + 1, "слово: ", lst[i])
+else:
+        for i in range(len(lst)):
+            print("Номер строки :", i + 1,"слово: ", lst[i][0:10])
 # def list_el(index):
 # print('на строке', index, 'будет находиться слово', lst[])
 # for index in list(lst) :
 # def list_el(index)
-#line = lst.index(input("Введите строку какого слова ищем")) + 1
-#print(line)
-
-
-
-
+# line = lst.index(input("Введите строку какого слова ищем")) + 1
+# print(line)
