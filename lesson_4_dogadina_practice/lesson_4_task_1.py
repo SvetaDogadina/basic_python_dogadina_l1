@@ -8,5 +8,5 @@ salary_per_hour, hours, bonus = argv
 print("Ставка в час: ", salary_per_hour)
 print("Часы: ", hours)
 print("Премия: ", bonus)
-salary = (salary_per_hour * hours) + bonus
+salary = ((salary_per_hour * hours) + bonus)
 print("Расчет заработной платы: ", salary)
