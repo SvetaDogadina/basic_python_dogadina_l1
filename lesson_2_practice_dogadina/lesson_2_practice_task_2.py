@@ -16,7 +16,7 @@ while i < number:
     user_list.append(input("Введите следующее значение списка "))
     i += 1
 
-for elem in range(int(len(user_list)/2)):
-        user_list[el], user_list[el + 1] = user_list [el + 1], user_list[el]
-        el += 2
+for elem in range(int(len(user_list) / 2)):
+    user_list[el], user_list[el + 1] = user_list[el + 1], user_list[el]
+    el += 2
 print(user_list)

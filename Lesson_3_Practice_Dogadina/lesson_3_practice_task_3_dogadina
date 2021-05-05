@@ -1,0 +1,10 @@
+
+def my_func(a, b, c):
+    z = [a, b, c]
+    z.remove(min(a, b, c))
+    return sum(z)
+x = int(input ("Введите первое число"))
+y = int(input ("Введите второе число"))
+z = int(input ("Введите третье число"))
+
+print(my_func(x, y, z))

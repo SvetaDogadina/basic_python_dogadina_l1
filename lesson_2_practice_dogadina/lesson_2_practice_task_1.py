@@ -4,9 +4,9 @@
 #  Использовать функцию type() для проверки типа.
 #  Элементы списка можно не запрашивать у пользователя,
 #  а указать явно, в программе
-my_list = [1, True, 3, 4.5, (10//4), "new word"]
+my_list = [1, True, 3, 4.5, (10 // 4), "new word"]
 print(type(my_list[0]), type(my_list[1]), type(my_list[2]), type(my_list[3]), type(my_list[4]), type(my_list[5]))
-#если не известно, сколько переменных
+# если не известно, сколько переменных
 my_list = [1, 2, 3.5, "new word"]
 for num in my_list:
     print(type(num))
