@@ -1,0 +1,17 @@
+
+
+#1
+
+from itertools import count
+
+n = int(input("Введите целое число:"))
+
+for i in count(n):
+    print(i, end=' ')
+    if i == 1000:
+     break 
+#2
+from itertools import cycle
+x = list(range(100))
+itertools.cycle(x)
+print(x) 
