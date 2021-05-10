@@ -1,11 +1,8 @@
-season_list = [False,'зима', 'зима', 'весна', 'весна', 'весна', 'лето', 'лето', 'лето', 'осень', 'осень',
-'осень', 'зима']
-x = int(input("Введите номер месяца по порядку: "))
-if x == 0:
-    print("Негодник, нулевого месяца не бывает! Иди учи натуральные числа")
-else:
-    try:
-        print("Этот месяц принадлежит сезону", season_list[x])
-    except IndexError:
-        print("Месяца с таким номером нет")
-
+with open("45566") as file_obj:
+    lines = 0
+    letters = 0
+    for line in file_obj:
+        lines += line.count("\n")
+        letters = len(line)-1
+        print(f"{letters} letters in line")
+    print(f"String count is {lines}")
