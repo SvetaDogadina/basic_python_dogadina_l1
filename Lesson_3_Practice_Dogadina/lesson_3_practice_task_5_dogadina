@@ -1,0 +1,15 @@
+def exe_5():
+    res = 0
+    while True:
+        numbers = input('Введите список чисел через пробел или + для выхода: ').split()
+        for i in numbers:
+            try:
+                if i == '+':
+                    print(f'Сумма равна {res}. Выход')
+                    return 
+                else:
+                    res += int(i)
+            except ValueError:
+                print('Введите список чисел через пробел или +')
+        print(f'Сумма равна {res}')
+print(exe_5())

@@ -1,0 +1,20 @@
+#  первый вариант
+x = abs(int(input ("Введите действительное положительное число")))
+y = int(input ("Введите второе отрицательное целое число"))
+
+def degree(a,b):
+	z = abs(b)
+	return (1 / (a**z))
+	
+print(degree(x, y))
+# второй вариант:
+def degrees (n, p):
+	r = 1
+	while (p < 0):
+			r *= n
+			p += 1
+	x = 1/r
+	print(x)
+print(degrees(4, -2))
+		
+		
