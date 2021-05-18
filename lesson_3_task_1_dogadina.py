@@ -10,6 +10,6 @@ def division(x, y):
         print("Делить на ноль нельзя")
 
 
-x = int(input("Введите первое число: "))
-y = int(input("Введите второе число: "))
-division(x, y)
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число:4"))
+division(a, b)
